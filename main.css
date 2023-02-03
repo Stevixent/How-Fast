@@ -53,6 +53,7 @@ button{
     padding: 10px 30px;
     border-radius: 7px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .result{
