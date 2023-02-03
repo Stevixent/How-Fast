@@ -1,3 +1,12 @@
 const quoteApiUrl = "https://api.quotable.io/GET /random?minLength=80&maxLength=100";
  const quoteSection = document.getElementById("quote");
- const userInput = document.getElementById() 
+ const userInput = document.getElementById("quote-input");
+
+ let quote = "";
+ let time = 50;
+ let timer = "";
+ let mistakes = 0;
+
+ window.onload = () => {
+    
+ }
