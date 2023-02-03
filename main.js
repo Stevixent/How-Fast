@@ -18,11 +18,11 @@ const renderNewQuote = async () => {
     //access quote
     quote = data.content;
 
-    console.log(data);
-}
+    
+};
 
  window.onload = () => {
     userInput.value = "";
     document.getElementById("start-test").style.display = "block";
     document.getElementById("stop-test").style.display = "none";
- }
+ };
