@@ -26,3 +26,8 @@ body{
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+.stats span{
+    font-weight: 600;
+     
+}
