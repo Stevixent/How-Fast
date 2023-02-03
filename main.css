@@ -29,5 +29,9 @@ body{
 
 .stats span{
     font-weight: 600;
-     
+}
+
+#quote{
+    text-align: justify;
+    margin: 50px 0 30px 0;
 }
