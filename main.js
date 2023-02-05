@@ -18,6 +18,8 @@ const renderNewQuote = async () => {
     //access quote
     quote = data.content;
 
+    //Array of 
+
     
 };
 
