@@ -18,9 +18,11 @@ const renderNewQuote = async () => {
     //access quote
     quote = data.content;
 
-    //Array of 
+    //Array of characters in the quote
+    let arr = quote.split("").map(value => {
+        
+    })
 
-    
 };
 
  window.onload = () => {
