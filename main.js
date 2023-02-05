@@ -20,7 +20,9 @@ const renderNewQuote = async () => {
 
     //Array of characters in the quote
     let arr = quote.split("").map(value => {
-        //wrap the 
+        //wrap the characters in a span tag
+        return "<span class='quote-chars'>" + value + "</span>";
+        
     })
 
 };
