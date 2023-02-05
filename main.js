@@ -22,9 +22,9 @@ const renderNewQuote = async () => {
     let arr = quote.split("").map(value => {
         //wrap the characters in a span tag
         return "<span class='quote-chars'>" + value + "</span>";
-        
-    })
 
+    });
+    //join array for displaying
 };
 
  window.onload = () => {
