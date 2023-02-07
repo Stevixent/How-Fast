@@ -28,6 +28,9 @@ const renderNewQuote = async () => {
     quoteSection.innerHTML += arr.join("");
 };
 
+// start test
+const startTest
+
  window.onload = () => {
     userInput.value = "";
     document.getElementById("start-test").style.display = "block";
