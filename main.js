@@ -29,7 +29,10 @@ const renderNewQuote = async () => {
 };
 
 // start test
-const startTest
+const startTest = () => {
+    mistakes = 0;
+    
+};
 
  window.onload = () => {
     userInput.value = "";
