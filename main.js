@@ -32,7 +32,8 @@ const renderNewQuote = async () => {
 const startTest = () => {
     mistakes = 0;
     timer = "";
-    
+    userInput.disabled = false;
+    document.getElementById("start-test");
 };
 
  window.onload = () => {
