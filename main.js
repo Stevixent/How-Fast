@@ -31,6 +31,7 @@ const renderNewQuote = async () => {
 // start test
 const startTest = () => {
     mistakes = 0;
+    timer = "";
     
 };
 
